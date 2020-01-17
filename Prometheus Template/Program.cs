@@ -12,7 +12,7 @@ namespace Prometheus_Template
         // these special type of varibles get written into promethues.
         private static readonly Gauge number1 =
          Metrics.CreateGauge("number_1", "Send the number 1 to the server");
-
+        //
         private static readonly Gauge number2 =
          Metrics.CreateGauge("number_2", "Send the number 2 to the server");
 
